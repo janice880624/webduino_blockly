@@ -2,7 +2,7 @@
   <block type="line"></block>
 </xml> -->
 
-<category id="line_try">
+<category id="linebot">
   <block type="line">
     <value name="eventname">
       <block type="text">

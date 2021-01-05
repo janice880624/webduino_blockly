@@ -3,6 +3,13 @@ Blockly.JavaScript['linebot'] = function(block) {
     var value_channelsecret = Blockly.JavaScript.valueToCode(block, 'channelSecret', Blockly.JavaScript.ORDER_ATOMIC);
     var value_token = Blockly.JavaScript.valueToCode(block, 'Token', Blockly.JavaScript.ORDER_ATOMIC);
     // TODO: Assemble JavaScript into code variable.
-    var code = '...;\n';
+    // var code = '...;\n';
+
+    var bot = linebot({
+        channelId: value_channelid,
+        channelSecret: value_channelsecret,
+        channelAccessToken: value_token
+    });
+
     return code;
 };
