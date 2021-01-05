@@ -1,4 +1,4 @@
-Blockly.Blocks['line'] = {
+Blockly.Blocks['linebot'] = {
     init: function() {
       this.appendValueInput("channelId")
           .setCheck("String")
