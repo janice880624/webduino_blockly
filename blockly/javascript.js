@@ -11,5 +11,5 @@ Blockly.JavaScript['linebot'] = function(block) {
         channelAccessToken: value_token
     });
 
-    return code;
+    return bot;
 };
