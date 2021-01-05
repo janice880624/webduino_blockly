@@ -5,11 +5,12 @@ Blockly.JavaScript['linebot'] = function(block) {
     // TODO: Assemble JavaScript into code variable.
     // var code = '...;\n';
 
-    var bot = linebot({
-        channelId: value_channelid,
-        channelSecret: value_channelsecret,
-        channelAccessToken: value_token
-    });
+    // var bot = linebot({
+    //     channelId: value_channelid,
+    //     channelSecret: value_channelsecret,
+    //     channelAccessToken: value_token
+    // });
+    var code = 'digitalWrite('+value_pin+', '+dropdown_mode+');\n';
 
-    return bot;
+    return code;
 };

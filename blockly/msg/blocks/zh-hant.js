@@ -1,2 +1,3 @@
-Blockly.Msg.VALUE1 = '值 1:';
-Blockly.Msg.VALUE2 = '值 2:';
+MSG.myBlocks = "janice";
+MSG.myCategory1 = "目錄 1";
+MSG.myCategory2 = "目錄 2";

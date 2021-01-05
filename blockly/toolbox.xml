@@ -2,13 +2,14 @@
   <block type="line"></block>
 </xml> -->
 
-<category id="linebot">
-  <block type="line">
-    <value name="eventname">
-      <block type="text">
-      <field name=" TEXT"></field>
-      </block>
-    </value>
-    ....
+<category id="janice">
+
+  <block type="lineset">
+      <field name="id">id</field>
+      <field name="secret">secret</field>
+      <field name="token">token</field>
   </block>
+
+
 </category>
+
