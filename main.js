@@ -2,20 +2,23 @@
 
   'use strict';
 
-  function linebot(channelid, channelsecret, token) {
+  function line_ifttt(event, key, v1, v2, v3) {
     var obj = {};
-    if (channelid != "''" || channelid.length > 0) {
-      obj.value1 = channelid;
+    if (v1 != "''" || v1.length > 0) {
+      obj.value1 = v1;
     }
-    if (channelsecret != "''" || channelid.length > 0) {
-      obj.value2 = channelsecret;
+    if (v2 != "''" || v1.length > 0) {
+      obj.value2 = v2;
     }
-    if (token != "''" || channelid.length > 0) {
-      obj.value3 = token;
+    if (v3 != "''" || v1.length > 0) {
+      obj.value3 = v3;
     }
-
+    var uri = 'https://maker.ifttt.com/trigger/' + event + '/with/key/' + key;
+    $.post(uri, obj, function (e) {
+      console.log(e);
+    });
   }
 
-  window.linebot = linebot;
+  window.line_ifttt = line_ifttt;
 
 }(window, window.document));

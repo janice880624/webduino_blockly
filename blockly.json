@@ -1,6 +1,6 @@
 {
     "types": [
-        "linebot"
+        "line_ifttt"
     ],
     "category": "catPlus",
     "scripts": [
