@@ -17,7 +17,7 @@
     $.post(uri, obj, function (e) {
       console.log(e);
     });
-  };
+  }
 
   //------------------------------------------
 
@@ -25,15 +25,15 @@
     var obj = {};
 
     if ( id != "''" || id.length > 0){
-      obj.id = id
+      obj.id = id;
     }
 
     if ( serect != "''" || id.length > 0){
-      obj.serect = serect
+      obj.serect = serect;
     }
 
     if ( token != "''" || id.length > 0){
-      obj.token = token
+      obj.token = token;
     }
   }
 
