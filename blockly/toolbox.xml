@@ -1,5 +1,5 @@
 <category id="myBlocks">
-	<category id="myCategory1" name="linebot" style="display: none">
+	<category id="myCategory1" name="linebot">
 		<block type="linebot">
 			<value name="linebot_id">
 			<block type="text">
