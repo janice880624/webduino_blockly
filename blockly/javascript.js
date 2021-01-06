@@ -23,22 +23,21 @@ Blockly.JavaScript['line_ifttt'] = function(block) {
 //-----------------------------------------------
 
 Blockly.JavaScript['linebot'] = function(block) {
-  var id = Blockly.JavaScript.valueToCode(block, 'linbot_id', Blockly.JavaScript.ORDER_ATOMIC);
-  var serect = Blockly.JavaScript.valueToCode(block, 'linbot_serect', Blockly.JavaScript.ORDER_ATOMIC);
-  var token = Blockly.JavaScript.valueToCode(block, 'linbot_token', Blockly.JavaScript.ORDER_ATOMIC);
+  var value_id = Blockly.JavaScript.valueToCode(block, 'id', Blockly.JavaScript.ORDER_ATOMIC);
+  var value_serect = Blockly.JavaScript.valueToCode(block, 'serect', Blockly.JavaScript.ORDER_ATOMIC);
+  var value_token = Blockly.JavaScript.valueToCode(block, 'token', Blockly.JavaScript.ORDER_ATOMIC);
+  // TODO: Assemble JavaScript into code variable.
 
-  if (id.length == 0) {
-    id = "''";
+  if (value_id.length == 0) {
+    value_id = "''";
   }
-  if (serect.length == 0) {
-    serect = "''";
+  if (value_serect.length == 0) {
+    value_serect = "''";
   }
-  if (token.length == 0) {
-    token = "''";
+  if (value_token.length == 0) {
+    value_token = "''";
   }
 
-  var code = 'linebot(' + id + ',' + serect + ',' + token + ');';
-
+  var code = 'linebot(' + value_id + ',' + value_serect + ',' + value_token + ');';
   return code;
 };
-
