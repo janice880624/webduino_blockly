@@ -14,6 +14,7 @@ Blockly.Blocks['linebot'] = {
         .setCheck("null")
         .setAlign(Blockly.ALIGN_RIGHT)
         .appendField("token");
+    this.setOutput(true, 'Number');
 
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
