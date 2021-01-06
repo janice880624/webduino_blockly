@@ -3,15 +3,18 @@ Blockly.Blocks['linebot'] = {
     this.appendValueInput("id")
         .setCheck("null")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("id");
+        .appendField("id")
+        .setOutput(true, 'String');
     this.appendValueInput("serect")
         .setCheck("null")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("serect");
+        .appendField("serect")
+        .setOutput(true, 'String');
     this.appendValueInput("token")
         .setCheck("null")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("token");
+        .appendField("token")
+        .setOutput(true, 'String');
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(180);
