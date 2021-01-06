@@ -2,17 +2,17 @@
 	<block type="linebot">
 		<value name="linebot_id">
 		  <block type="text">
-			<field name="TEXT"></field>
+			<field name="TEXT"> </field>
 		  </block>
 		</value>
 		<value name="linebot_serect">
 		  <block type="text">
-			<field name="TEXT"></field>
+			<field name="TEXT"> </field>
 		  </block>
 		</value>
 		<value name="linebot_token">
 		  <block type="text">
-			<field name="TEXT"></field>
+			<field name="TEXT"> </field>
 		  </block>
 		</value>
 	</block>

@@ -1,15 +1,15 @@
 Blockly.Blocks['linebot'] = {
   init: function() {
     this.appendValueInput("id")
-        .setCheck("String")
+        .setCheck("null")
         .setAlign(Blockly.ALIGN_RIGHT)
         .appendField("id");
     this.appendValueInput("serect")
-        .setCheck("String")
+        .setCheck("null")
         .setAlign(Blockly.ALIGN_RIGHT)
         .appendField("serect");
     this.appendValueInput("token")
-        .setCheck("String")
+        .setCheck("null")
         .setAlign(Blockly.ALIGN_RIGHT)
         .appendField("token");
     this.setPreviousStatement(true, null);
