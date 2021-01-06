@@ -1,15 +1,16 @@
 Blockly.Blocks['linebot'] = {
     init: function () {
         this.appendValueInput("channelId")
-            .setCheck("String")
+            .setCheck("null")
             .setAlign(Blockly.ALIGN_RIGHT)
+            .appendField("LINE")
             .appendField("channelId:");
         this.appendValueInput("channelSecret")
-            .setCheck("String")
+            .setCheck("null")
             .setAlign(Blockly.ALIGN_RIGHT)
             .appendField("channelSecret:");
         this.appendValueInput("Token")
-            .setCheck("String")
+            .setCheck("null")
             .setAlign(Blockly.ALIGN_RIGHT)
             .appendField("Token:");
         this.setPreviousStatement(true, null);

@@ -17,6 +17,6 @@ Blockly.JavaScript['linebot'] = function (block) {
         token = "''";
     }
 
-    var code = 'linebot(' + v1 + ',' + v2 + ',' + v3 + ');';
+    var code = 'linebot(' + channelid + ',' + channelsecret + ',' + token + ');';
     return code;
 };
