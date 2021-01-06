@@ -1,19 +1,19 @@
 <category id="myBlocks">
-	<category id="myCategory1" name="linebot">
+	<category id="myCategory1" name="linebot" style="display: none">
 		<block type="linebot">
 			<value name="linebot_id">
 			<block type="text">
-				<field name="TEXT"> aa </field>
+				<field name="TEXT"></field>
 			</block>
 			</value>
 			<value name="linebot_serect">
 			<block type="text">
-				<field name="TEXT"> bb </field>
+				<field name="TEXT"></field>
 			</block>
 			</value>
 			<value name="linebot_token">
 			<block type="text">
-				<field name="TEXT"> </field>
+				<field name="TEXT"></field>
 			</block>
 			</value>
 		</block>
