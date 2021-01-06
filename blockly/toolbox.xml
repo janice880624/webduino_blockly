@@ -1,20 +1,21 @@
-<category id="catLine">
-	<block type="linebot">
-		<value name="linebot_id">
-		  <block type="text">
-			<field name="TEXT"> aa </field>
-		  </block>
-		</value>
-		<value name="linebot_serect">
-		  <block type="text">
-			<field name="TEXT"> bb </field>
-		  </block>
-		</value>
-		<value name="linebot_token">
-		  <block type="text">
-			<field name="TEXT"> cc </field>
-		  </block>
-		</value>
-	</block>
-	
+<category id="myBlocks">
+	<category id="myCategory1" name="linebot">
+		<block type="linebot">
+			<value name="linebot_id">
+			<block type="text">
+				<field name="TEXT"> aa </field>
+			</block>
+			</value>
+			<value name="linebot_serect">
+			<block type="text">
+				<field name="TEXT"> bb </field>
+			</block>
+			</value>
+			<value name="linebot_token">
+			<block type="text">
+				<field name="TEXT"> </field>
+			</block>
+			</value>
+		</block>
+	</category>
 </category>
