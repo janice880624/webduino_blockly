@@ -1,3 +1,3 @@
-MSG.myBlocks = "janice";
-MSG.myCategory1 = "目錄 1";
-MSG.myCategory2 = "目錄 2";
+Blockly.Msg.LINEBot_Set = '設定 LINE Bot';
+Blockly.Msg.LINEBot_Token = 'token :';
+Blockly.Msg.LINEBot_Userid = 'user ID :';
