@@ -17,8 +17,8 @@
     $.post(uri, obj, function (e) {
       console.log(e);
     });
-  }
-  
+  };
+
   //------------------------------------------
 
   function linebot(id, serect, token){
